@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Are Special</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Devishree,</strong>
+                        <p>
+                            Mujhe Nhi Pata Ki Abhi Kya Chal Raha Hai Tere Mind Pe,
+                            Maine Padha Toh Tha Ki PCOD Mai Aisa Hota Hai, But I Am Not Sure.
+                            So, Mai Bas Terko Yahi Batana Chahunga Ki Agar Terko Baat Karni Ho Toh Mai Yahi Hu Humesha Tere Sath,
+                            I Know Tu Nhi Batana Chahti, Fir Bhi I Am Here. Bas Pray Kar Raha Hu Ki Jo Kuch Bhi Ho Jaldi Thik Ho Jayega.
+                            And Really Sorry Ki Mai Achank Se Gayab Hogaya, And I Promise Ki Abb Kabhi Aisa Nhi Karunga.
+                            Btw, Aaj Tu Acchi Lg Rahi Thi. 
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
